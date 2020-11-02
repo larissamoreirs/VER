@@ -1,0 +1,816 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>[COLOR white][B]WWW.VER[/B][/COLOR] [COLOR red][B]TV.DE[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://vertv.de/VERTV/LOGO/logo1.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/vertvinfo.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]JORNAL NACIONAL[/COLOR][/B]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/channel/UCzSZhxGBOoGdD6TaCsCD2tw</jsonrpc>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/jornalismos/Nacional.png</thumbnail>
+</item>
+
+
+
+<item>
+<title>[B][COLOR lime]FANTASTICO[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+   <link>IgnoreMe</link>
+   <jsonrpc>plugin://plugin.video.youtube/playlist/[makelist.param1]/</jsonrpc> 
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/melhordobrasil.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[playlist\?list=(.*?)".*?>(.*?)<]]></expres>
+<page>https://www.youtube.com/channel/UCEKRfHdjuCHPtCK6CLPHJyg/videos</page>
+</regex>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/jornalismos/fantastico.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR lime]TODA A PROGRAMACAO DA RECORD TV[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist.param2][/COLOR][/B]</title>
+   <link>IgnoreMe</link>
+   <jsonrpc>plugin://plugin.video.youtube/playlist/[makelist.param1]/</jsonrpc> 
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/REDERECORD.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[playlist\?list=(.*?)".*?>(.*?)<]]></expres>
+<page>https://www.youtube.com/user/JornaldaRecordJR/playlists</page>
+</regex>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/REDERECORD.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR lime]GLOBO REPORTER[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/d/d3/Globo_Reporter_2014.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLqoF2txS6fgxP_aMM_C0uolwXb4wbJczr</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/d/d3/Globo_Reporter_2014.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR lime]PROFISSAO REPORTER[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://gabrieltoueg.files.wordpress.com/2013/05/profissao_reporter_2012.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLoL4tH1fT8pbD0-fmvzXXcNCBkdEGNTsJ</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://gabrieltoueg.files.wordpress.com/2013/05/profissao_reporter_2012.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR lime]RECORD TV[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+   <link>IgnoreMe</link>
+   <jsonrpc>plugin://plugin.video.youtube/playlist/[makelist.param1]/</jsonrpc> 
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/REDERECORD.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[playlist\?list=(.*?)".*?>(.*?)<]]></expres>
+<page>https://www.youtube.com/user/DoEspetacular/playlists</page>
+</regex>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/REDERECORD.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR lime]CAMERA RECORD[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/pt/1/11/C%C3%A2mera_Record.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PL90bW7LRrofEe0K7Bzhv0PyFVubItoFJy</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/pt/1/11/C%C3%A2mera_Record.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+</item>
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]REDE TV[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+   <link>IgnoreMe</link>
+   <jsonrpc>plugin://plugin.video.youtube/playlist/[makelist.param1]/</jsonrpc> 
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/rede-tv.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[playlist\?list=(.*?)".*?>(.*?)<]]></expres>
+<page>https://www.youtube.com/user/RedeTVhdBrasil/playlists</page>
+</regex>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/rede-tv.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR lime]RODA VIVA[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/Roda_Viva.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PL6zZkMrBoEjyfLf7ezka6L0BRvvzfk8Rg</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/Roda_Viva.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR lime]CARNAVAL 2020 [/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://aabbribeiraopreto.com.br/wp-content/uploads/2020/02/destaque-site.jpg</thumbnail>
+<fanart>http://vertv.de/IMAGENS/O-Rio-de-Janeiro-%C3%A9.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=UUQlqi-MA6vpufxjxRk20X8Q</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://aabbribeiraopreto.com.br/wp-content/uploads/2020/02/destaque-site.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR lime]MARIANA GODOY ENTREVISTAS[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/marianagodoy.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLtlfFXCCGeMG78ktpg0BiKwOAcEEINhGx</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/marianagodoy.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR lime]GNT[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+   <link>IgnoreMe</link>
+   <jsonrpc>plugin://plugin.video.youtube/playlist/[makelist.param1]/</jsonrpc> 
+<thumbnail>http://www.denorteasur.com/wp-content/uploads/2018/11/448-URUGUAY-CARNAVAL-FEATURED.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[playlist\?list=(.*?)".*?>(.*?)<]]></expres>
+<page>https://www.youtube.com/user/canalgnt/playlists</page>
+</regex>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>https://yt3.ggpht.com/a-/AAuE7mDxzlZs2_WnTHqglJgPAEEMeqcnfIcGiG8Xeg=s288-mo-c-c0xffffffff-rj-k-no</thumbnail>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR lime]A PRASA E NOSSA[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/A_Pra%C3%A7a_%C3%89_Nossa.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLdVc1RNcjHV39ELN1TuvAbdfliXXdxuen</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/A_Pra%C3%A7a_%C3%89_Nossa.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]SUPER POP [/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/superpop.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLZqDNeDGyZHMsA3clLlktBh5X3y5AKlTc</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/superpop.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime] A TARDE E SUA[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/A-tarde-%C3%A9-sua.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLgzlEoLvH7wt7Y3C2zkGZc5oqbr1Czgyi</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/A-tarde-%C3%A9-sua.jpg</thumbnail>
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime] DOMINGO SHOW[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/DomingoShow.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLVL8lowi7L7qq9AecI1t3WPqO-nkazUFS</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/DomingoShow.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime] O MELHO DO BRASIL[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+   <link>IgnoreMe</link>
+   <jsonrpc>plugin://plugin.video.youtube/playlist/[makelist.param1]/</jsonrpc> 
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/melhordobrasil.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[playlist\?list=(.*?)".*?>(.*?)<]]></expres>
+<page>https://www.youtube.com/channel/UC6IV24QPvsASJbzqDbmK8gw/playlists</page>
+</regex>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/melhordobrasil.png</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]MULTSHOW GRAVADOS [/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+   <link>IgnoreMe</link>
+   <jsonrpc>plugin://plugin.video.youtube/playlist/[makelist.param1]/</jsonrpc> 
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/jornalismos/jornalvarios1.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[playlist\?list=(.*?)".*?>(.*?)<]]></expres>
+<page>https://www.youtube.com/channel/UC11JFCoslUUMTuAsUPH8RdQ/playlists</page>
+</regex>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/Multishow.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]ALTAS HORAS[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/altashoras.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PL4dcEtqD36kscFatSTO--Abt2aywtNXe-</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/altashoras.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]PEDRO BIAL[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/pedrobial.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PL3UyaXsXngjU0jZAVu-VrdjLxRBSgyhcU&index=3</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/pedrobial.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]PORCHAT[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/porchat.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLg1ciAPZAAT1I_IxcgecERpUXLiRP3Dc0</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/porchat.jpg</thumbnail>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]BOTECO DO RATINHO[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/ratinho.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLjxhigBShqX8rEwa4oVpmTt60bi3IBSYe&index=1</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/ratinho.jpg</thumbnail>
+</item>
+
+
+
+<item>
+<title>[B][COLOR lime]ESCOLINHA DO PROFESSOR RAIMUNDO[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/Escolinha.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLUKMz7FBnyCNJfgmQ8puh9CYSBLaX2A8p</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/Escolinha.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]SR. BRASIL[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/srbrasil.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLZr_cWqqWXHVMQHepS7pwJKmnB2EYEDiy</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/srbrasil.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]FATIMA BERNARDES[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/encontro.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLxD1vRFltRFfw6xkkMBz2pxmCDO_W1pzr&index=1</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/encontro.jpg</thumbnail>
+</item>
+
+
+
+
+	
+	
+<item>
+<title>[B][COLOR lime]THE NOITE[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/thenoite.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLdVc1RNcjHV2oYsZ3EBJmywwWC6CLROyB</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/thenoite.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]CASOS DE FAMILIA [/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/Casos-de-Fam%C3%ADlia.jpg/thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLF29085021514694D</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/Casos-de-Fam%C3%ADlia.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]SHOW DO TOM[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/Show_do_tom_LOGO.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLYiJNCgWtzeFeRnKdzbeu0bzQSI2XTaJO</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/Show_do_tom_LOGO.jpg</thumbnail>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]RAUL GIL[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/raulgil.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PL2SGcr4F75KwVLc4T1I_nQ6Fd2TPZXHWu</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/raulgil.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR lime]MAIS VOCE[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/maisvoce.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLAGH-Tl66uDyOYobk30jEp1bCaEQfGwHT&index=1</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/maisvoce.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]JO SOARES[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/josoares.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLtZjQQIHWUy9kGdhX_4AqiZEwXzEXq9u4</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/josoares.jpg</thumbnail>
+</item>
+
+
+
+<item>
+<title>[B][COLOR lime]PANICO NA RADIO[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/panico.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLW3mXBgY1SKVDkJrb8qNiaLuZovwcnRTP</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/panico.png</thumbnail>
+</item>
+
+
+
+<item>
+<title>[B][COLOR lime]CHAVES[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+   <link>IgnoreMe</link>
+   <jsonrpc>plugin://plugin.video.youtube/playlist/[makelist.param1]/</jsonrpc> 
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/chaves.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[playlist\?list=(.*?)".*?>(.*?)<]]></expres>
+<page>https://www.youtube.com/user/GamesBruno123/playlists</page>
+</regex>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/chaves.jpg</thumbnail>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR lime]CHAPOLIN COLORADO[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/chapolin.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PL1D66D896E9836F65</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/chapolin.jpg</thumbnail>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]OS TRAPALHÕES [/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/ostrapalho%CC%83es.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLaC640pPCIfJZk5N46NIcblgEjYFU8Vbf</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/ostrapalho%CC%83es.jpg</thumbnail>
+</item>
+
+
+
+<item>
+<title>[B][COLOR lime]FILMES DOS TRAPALHÕES [/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/filmestrapalhoes.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLwfQRrWP2wpMQfT04m05ZYQ0bPZhtMU2X</page>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/filmestrapalhoes.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]PEGADINHAS[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+   <link>IgnoreMe</link>
+   <jsonrpc>plugin://plugin.video.youtube/playlist/[makelist.param1]/</jsonrpc> 
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/pegadinhas.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[playlist\?list=(.*?)".*?>(.*?)<]]></expres>
+<page>https://www.youtube.com/user/CamerasEscondidasSBT/playlists</page>
+</regex>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart><thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/programacaodatv/pegadinhas.jpg</thumbnail>
+</item>
+
+
+
+
+
+Megaunica#_
+M_#megaunicagoiania@m1
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]A FAZENDA 8 2015[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/jornalismos/Fazenda_8.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLXwltslwZB0rOFrFSWNYn2nY5BrF1X4SS</page>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/ICONOSGRAVADOS/jornalismos/Fazenda_8.jpg</thumbnail>
+</item>

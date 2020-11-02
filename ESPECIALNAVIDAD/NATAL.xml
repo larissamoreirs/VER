@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+
+
+
+<item>
+<title>[COLOR white][B]WWW.VER[/B][/COLOR] [COLOR red][B]TV.DE[/B][/COLOR]</title>
+<thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+<link>http://ignora.me</link>
+</item>
+
+<item>
+<title>[B][COLOR aqua][B]RADIO NAVIDAD EN INGLES[/B][/COLOR]</title>
+<link>https://streaming.radiostreamlive.com/radiosantaclaus_devices</link>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR aqua][B]RADIO NAVIDAD EN ESPANOL[/B][/COLOR]</title>
+<link>http://streaming.shoutcast.com/VivaLaNavidadRadio?lang=en-US%2cen%3bq%3d0.8%2cde%3bq%3d0.6</link>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR aqua]Las mejores canciones de navidad  [/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[B][COLOR aqua][makelist.param2][/COLOR][/B]</title>
+                        <link>plugin://plugin.video.youtube/play/?playlist_id=[makelist.param1]&amp;order=default</link>
+            ]]></listrepeat>
+            <expres>\s?.href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;\/</expres>
+            <page>https://www.youtube.com/channel/UCXzReNr6a4bv0sJqrWetGeQ/playlists</page>
+            <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+</item>
+
+
+
+<item>
+<title>[B][COLOR aqua]Filmes de natal dublados  Opção 1[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLvHIdIaG-9g4kKtbdqgeIsI6fz3E4e7MA&index=1</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR aqua]Filmes de natal dublados  Opção 2[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLE46lfhwGO4I8lcne5_dj7rPF4HYAT94e</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR aqua]Peliculas de navidad opicions 1[/COLOR][/B]</title>
+<link>http://ignora.me</link>
+<externallink>http://VERTV.DE/VERTV/ESPECIALNAVIDAD/peliculasdenavidad.xml</externallink>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+</item>
+
+
+
+<item>
+<title>[B][COLOR aqua]Peliculas de navidad opicion 2[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLvHIdIaG-9g4kKtbdqgeIsI6fz3E4e7MA&index=1</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR aqua]Michael Buble Home for Christmas[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLGueWbTlHyhUJ4ClZs_u5sHNEbRO3rnh4</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR aqua]Especial Navidad espana[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLvhEpv4xntg5HUyFwBqOOHX345hkOTttS&index=1</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR aqua]Especial fim de ano Roberto carlos[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLMGKAubPVNCu1owCI8Kyd7w5Pw7QhTlK9</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR aqua]Dean Martin christmas[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PL11E0A79535062C5E</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR aqua]Dean Martin christmas shows[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist.param2][/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
+<page>https://www.youtube.com/playlist?list=PLUvfFkRMSQfH05CcgyylaHdxukicIUeod</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+</item>

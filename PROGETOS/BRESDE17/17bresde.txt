@@ -1,0 +1,42 @@
+id="plugin.program.VERTVUPDATE"
+version="0.0" verssao nova para conserta erros
+zip=""
+
+
+name="VERTV 17"
+version="17.3"
+url="https://www.dropbox.com/s/in04rn35t0gkumz/9-%209-2020-BRES-17.zip?dl=1"
+minor="http://"
+gui="url.to.guisettings"
+kodi="17"
+theme=""
+icon="http://vertv.de/VERTV/LOGO/brasilespanha.png"
+fanart="http://vertv.de/VERTV/PROJETOS/PROJETO-BRES/vertv2018.jpg"
+preview="https://www.youtube.com/watch?v=wxiGFP9xIOU"
+adult="no"
+info="url.to.info"
+description="Vertv skin creada para VERTV 17 ."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

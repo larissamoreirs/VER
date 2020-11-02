@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<title>[COLOR white][B]WWW.VER[/B][/COLOR] [COLOR red][B]TV.DE[/B][/COLOR]</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=TFiZETuL5Q8</link>
+<thumbnail>http://vertv.de/VERTV/LOGO/logo1.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/vertvinfo.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Radio Roberto carlos [/B][/COLOR]</title><thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<link>https://s05.w3bserver.com:20013/live.m3u8</link>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Julio Iglesias  [/B][/COLOR]</title><thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<link>http://stream.crooner.fr/crooner_julioiglesias</link>
+</item>
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Radio O Dia [/B][/COLOR]</title>
+<link>http://c2901-slbps-sambavideos.akamaized.net/radio/FMoDiaAudio_14d480346fa04ebcb4f03173f2dae707/livestream/media-uf392e9ff_83889.m3u8$$lsname=[B][COLOR white]Radio O Dia 1[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://c2901-slbps-sambavideos.akamaized.net/radio/FMoDiaAudio_14d480346fa04ebcb4f03173f2dae707/livestream/playlist.m3u8|User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G925F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36$$lsname=[B][COLOR white]Radio O Dia 2[/COLOR][/B]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=https://c2901-slbps-sambavideos.akamaized.net/radio/FMoDiaAudio_14d480346fa04ebcb4f03173f2dae707/livestream/chunklist.m3u8$$lsname=[B][COLOR white]Radio O Dia 3[/COLOR][/B]</link>
+<link>https://c2901-slbps-sambavideos.akamaized.net/radio/FMoDiaAudio_14d480346fa04ebcb4f03173f2dae707/livestream/chunklist.m3u8$$lsname=[B][COLOR white]Radio O Dia 4[/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]RADIO TERRA [/B][/COLOR]</title><thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<link></link>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Radio jovem pan [/B][/COLOR]</title><thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<link>http://paineldj2.com.br:8200/</link>
+</item>
+
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Radio mix[/B][/COLOR]</title><thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<link>http://tuneinmix.crossradio.com.br:8008/stream/1/</link>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Radio transamerica [/B][/COLOR]</title><thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<link>http://transamerica.crossradio.com.br:9112/live.aac</link>
+</item>
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Radio terra fm-GO [/B][/COLOR]</title><thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<link>http://12.stmip.net:8956/stream</link>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Antena 1[/B][/COLOR]</title><thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<link>http://antena1.newradio.it/stream?ext=.mp3</link>
+</item>
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Sertanejo [/B][/COLOR]</title>
+<link>http://192.99.150.31:9485</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Sertanejo Universitário [/B][/COLOR]</title>
+<link>http://192.99.150.31:9191</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Pagode [/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9061/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Forró [/B][/COLOR]</title>
+<link>http://192.99.150.31:9019</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] MPB [/B][/COLOR]</title>
+<link>http://192.99.150.31:8775</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Bossa Nova [/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9974/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Funk [/B][/COLOR]</title>
+<link>http://192.99.150.31:9089</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Rock Clássico [/B][/COLOR]</title>
+<link>http://192.99.150.31:9125</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Rádio Coca Cola FM [/B][/COLOR]</title>
+<link>http://ic.imusicaradios.com.br:8000/brasil.stream.http?url=tunein</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Rádio Transamérica FM [/B][/COLOR]</title>
+<link>http://transamerica.crossradio.com.br:9114/live.mp3</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Rádio Mania FM [/B][/COLOR]</title>
+<link>http://radio.servercsi.com.br:8595/;</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Transamérica [/B][/COLOR]</title>
+<link>http://transamerica.crossradio.com.br:9100/live.aac</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Verdes Mares [/B][/COLOR]</title>
+<link>http://srv4.zoeweb.tv:1935/z18-live/stream/playlist.m3u8</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Rádio Mix FM [/B][/COLOR]</title>
+<link>http://mixaac.crossradio.com.br:1100/live</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Kids [/B][/COLOR]</title>
+<link>http://192.99.150.31:9431</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Axé [/B][/COLOR]</title>
+<link>http://192.99.150.31:8305</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Brega [/B][/COLOR]</title>
+<link>http://192.99.150.31:9007</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Reggae [/B][/COLOR]</title>
+<link>http://192.99.150.31:8715</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Lounge [/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9064/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Pop Rock [/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:8016/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Anos 70 [/B][/COLOR]</title>
+<link>http://192.99.150.31:8241</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Anos 80 [/B][/COLOR]</title>
+<link>http://192.99.150.31:8697</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Anos 90 [/B][/COLOR]</title>
+<link>http://192.99.150.31:8056</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Anos 2000 [/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9940/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Românticas [/B][/COLOR]</title>
+<link>http://192.99.150.31:8962</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Rap Nacional [/B][/COLOR]</title>
+<link>http://192.99.150.31:8377</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Eletrônica [/B][/COLOR]</title>
+<link>http://192.99.150.31:9095</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Festa [/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9070/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Gospel [/B][/COLOR]</title>
+<link>http://192.99.150.31:9101</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Hip Hop [/B][/COLOR]</title>
+<link>http://192.99.150.31:8721</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Jazz [/B][/COLOR]</title>
+<link>http://192.99.150.31:8042</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Música Clássica [/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9970/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] New Rock [/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:8028/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Pop Hits [/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9046/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]DJ Hits[/B][/COLOR]</title>
+<link>http://www.djing.com/tv/04.m3u8</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Virgin[/B][/COLOR]</title>
+<link>http://wow01.105.net/live/virgin1/chunklist_w1531272998.m3u8</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Retro Music[/B][/COLOR]</title>
+<link>http://stream.mediawork.cz/retrotv//retrotvHQ1/playlist.m3u8</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Heart TV[/B][/COLOR]</title>
+<link>http://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/index_398_av-p.m3u8</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Radio 105 TV[/B][/COLOR]</title>
+<link>http://fms.105.net:1935/live/105Test1/playlist.m3u8</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]DJing Underground[/B][/COLOR]</title>
+<link>http://cdn.djing.com/tv/u-05.m3u8</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Hard Life[/B][/COLOR]</title>
+<link>http://stream.hardlife.tv:8134/hls-live/livepkgr/_definst_/liveevent/hl.m3u8</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Fresh Tv Music[/B][/COLOR]</title>
+<link>http://wse.planeta-online.tv:1935/live/channel_4/playlist.m3u8</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]1HD Music[/B][/COLOR]</title>
+<link>http://80.250.191.10:1935/live/livestream1/playlist.m3u8</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Visual Radio TV[/B][/COLOR]</title>
+<link>http://wms.shared.streamshow.it/visualradio/visualradio_mobile/playlist.m3u8</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]ONE 0[/B][/COLOR]</title>
+<link>http://rtmp.one.by:1200</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]ONE 1 HD[/B][/COLOR]</title>
+<link>http://rtmp.one.by:1300</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]ONE 4 HD[/B][/COLOR]</title>
+<link>http://rtmp.one.by:2300</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Kids[/B][/COLOR]</title>
+<link>http://192.99.150.31:9431/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]MPB[/B][/COLOR]</title>
+<link>http://192.99.150.31:8775/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Bossa Nova[/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9974/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Forró[/B][/COLOR]</title>
+<link>http://192.99.150.31:9019/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Pagode[/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9061/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Anos 2000[/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9940/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Sertanejo[/B][/COLOR]</title>
+<link>http://192.99.150.31:9485/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Funk[/B][/COLOR]</title>
+<link>http://192.99.150.31:9089/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Rock Clássico[/B][/COLOR]</title>
+<link>http://192.99.150.31:9125/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Lounge[/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9064/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Pop Rock[/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:8016/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Anos 70[/B][/COLOR]</title>
+<link>http://192.99.150.31:8241/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Anos 80[/B][/COLOR]</title>
+<link>http://192.99.150.31:8697/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Anos 90[/B][/COLOR]</title>
+<link>http://192.99.150.31:8056/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Românticas[/B][/COLOR]</title>
+<link>http://192.99.150.31:8962/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Rap Nacional[/B][/COLOR]</title>
+<link>http://192.99.150.31:8377/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Eletrônica[/B][/COLOR]</title>
+<link>http://192.99.150.31:9095/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Festa[/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9070/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Gospel[/B][/COLOR]</title>
+<link>http://192.99.150.31:9101/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Hip Hop[/B][/COLOR]</title>
+<link>http://192.99.150.31:8721/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Jazz[/B][/COLOR]</title>
+<link>http://192.99.150.31:8042/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Axé[/B][/COLOR]</title>
+<link>http://192.99.150.31:8305/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Brega[/B][/COLOR]</title>
+<link>http://192.99.150.31:9007/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Música Clássica[/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9970/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]New Rock[/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:8028/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Reggae[/B][/COLOR]</title>
+<link>http://192.99.150.31:8715/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Sertanejo Universitário[/B][/COLOR]</title>
+<link>http://192.99.150.31:9191/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Pop Hits[/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9046/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Metal[/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9898/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B]Trilhas Sonoras[/B][/COLOR]</title>
+<link>http://6d9a.webradio.upx.net.br:9896/stream</link>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] Dean Martin [/B][/COLOR]</title><thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<link>http://stream.crooner.fr/crooner_deanmartin</link>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR blue]•   [/B][COLOR lime][B] RADIO DE HISTORINHAS[/B][/COLOR]</title><thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/ICONOSBRASIL/TVABERTA/RADIOS.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/rio-COPOR.jpg</fanart>
+<link>http://192.99.150.31:8371/stream/1/</link>
+</item>

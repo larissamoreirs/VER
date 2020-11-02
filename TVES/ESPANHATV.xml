@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item>
+<title>[B][COLOR yellow]|||[/COLOR][COLOR red]|||[/COLOR][COLOR yellow]|||[/COLOR] [COLOR white]SEJA BEM-VINDO AO VERTV[/COLOR] [COLOR yellow]|||[/COLOR][COLOR red]|||[/COLOR][COLOR yellow]|||[/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://lacalleochotv.org/magu/redde/la6.php$$lsname=[B][COLOR white]GLOBO TV DIARIO [/COLOR][/B]</link>
+<link>https://ssh101.com/securelive/index.php|User-Agent: Samsung SM-G925F stagefright/Beyonce/1.1.9 (Linux;Android 7.0)$$lsname=[B][COLOR white]RECORD NEWS[/COLOR][/B]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=https://ssh101.com/securelive/index.php?id=sexta</link>
+<thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENS/vertvinfo.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [COLOR yellow]ESPANHA TDT+MOVISTA [/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR yellow] [/COLOR] [B][makelist.param1][/B]  </title>
+<link>$doregex[geturl]|Referer=$doregex[canal]&amp;User-Agent=ipad&amp;Referer=https://adictosalatele.com/&amp;Origin=https://streamcdn.to/</link>
+<thumbnail>https://images-eu.ssl-images-amazon.com/images/I/71dISjt6x5L.png</thumbnail>
+]]></listrepeat>
+<expres>-(.*?)=(.*?)"(.*?):</expres>
+<page>
+-Tve 1    =https://adictosalatele.com/TV/espana/tve1/" :
+-La 2   =https://adictosalatele.com/TV/espana/tve2/" :
+-La cuatro   =https://adictosalatele.com/TV/espana/lacuatro/" :
+-Telecinco   =https://adictosalatele.com/TV/espana/telecinco/" :
+-LA SEXTA    =https://adictosalatele.com/TV/espana/lasexta/" :
+-FDF    =https://adictosalatele.com/TV/espana/fdf/" :
+-BEMAD   =https://adictosalatele.com/TV/espana/bemad/" :
+-NEOX   =https://adictosalatele.com/TV/espana/neox/" :
+-MEGA   =https://adictosalatele.com/TV/espana/mega/" :
+-TEN   =https://adictosalatele.com/TV/espana/mega/" :
+-DIVINITY   =https://adictosalatele.com/TV/espana/divinity/" :
+-CANAL 0 PLUS    =https://adictosalatele.com/TV/espana/canal-0-plus/" :
+-AXN    =https://adictosalatele.com/TV/espana/axn/" :
+-TNT   =https://adictosalatele.com/TV/espana/tnt/" :
+-FOX LIFE    =https://adictosalatele.com/TV/espana/fox-life/" :
+-AXN WHITE   =https://adictosalatele.com/TV/espana/axnwhite/" :
+-TCM    =https://adictosalatele.com/TV/espana/tcm/" :
+-COMEDY CENTRAL    =https://adictosalatele.com/TV/espana/comedy-central/" :
+-DISCOVERY CHANNEL   =https://adictosalatele.com/TV/espana/discovery-channel/" :
+-D MAX    =https://adictosalatele.com/TV/espana/discovery-max/" :
+-HISTORY    =https://adictosalatele.com/TV/espana/history/" :
+-NAT GEO    =https://adictosalatele.com/TV/espana/national-geographic/" :
+-NAT GEO    =https://adictosalatele.com/TV/espana/nat-geo/" :
+-CI    =https://adictosalatele.com/TV/espana/ci/" :
+-MOVISTAR LA LIGA *    =https://adictosalatele.com/TV/deportes/movistar-laliga/live.php" :
+-LIGA CAMPEONES    =https://adictosalatele.com/TV/deportes/movistar-ligacampeones/live.php" :
+-MOVISTAR DEPORTES   =https://adictosalatele.com/TV/deportes/movistar-deportes/" :
+-MOVISTAR GOLF   =https://adictosalatele.com/TV/deportes/movistar-golf/" :
+-Teledeporte   =https://adictosalatele.com/TV/deportes/teledeporte/" :
+-LA LIGA 2   =https://adictosalatele.com/TV/deportes/laliga-de-segunda/" :
+-DAZN    =https://adictosalatele.com/TV/deportes/dazn/" :
+-VAMOS   =https://adictosalatele.com/TV/deportes/vamos/" :
+-FORMULA 1    =https://adictosalatele.com/TV/deportes/formula1/" :
+-EUROSPORT 1    =https://adictosalatele.com/TV/deportes/eurosport1/" :
+-EUROSPORT 2   =https://adictosalatele.com/TV/deportes/eurosport2/" :
+-CAZA Y PEZCA   =https://adictosalatele.com/TV/espana/caza-pesca/" :
+-CAZAVISION   =https://adictosalatele.com/TV/latinos/cazavision/" :
+-ESTRENOS   =https://adictosalatele.com/TV/movistar-estrenos/" :
+-ACCION   =https://adictosalatele.com/TV/espana/movistar-accion/" :
+-DRAMA   =https://adictosalatele.com/TV/espana/movistar-drama/" :
+-COMEDIA   =https://adictosalatele.com/TV/espana/movistar-comedia/" :
+-DCINEESPANOL   =https://adictosalatele.com/TV/espana/dcineespanol/" :
+-DCINEESPANOL   =https://adictosalatele.com/TV/espana/dcineespanol/" :
+-SERIES   =https://adictosalatele.com/TV/espana/movistar-series/" :
+-SERIESMAIA   =https://adictosalatele.com/TV/espana/movistar-seriesmania/" :
+</page>
+</regex>
+<regex>
+<name>geturl</name>
+<expres>(?:file|source|src):.*?"(.*?)"</expres>
+<page>$doregex[getunpacked]</page>
+</regex>
+<regex>
+<name>getunpacked</name>
+<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
+<page>$doregex[canal]</page>$pyFunction:''.replace('https','http')
+<referer>https://adictosalatele.com</referer>
+<connection>keep-alive</connection>
+</regex>
+<regex>
+<name>canal</name>
+<expres>iframe.*?src=\"(.*?)\"</expres>
+<page>[makelist.param2]</page>
+</regex>	
+<regex>
+<name>emitiendo</name>
+<expres><![CDATA[(?s)[makelist.param3].*?ahora">\n\s\s\s(.*?)\n]]></expres>
+<page>http://www.formulatv.com/programacion/movistarplus/</page>
+</regex>
+<thumbnail>https://images-eu.ssl-images-amazon.com/images/I/71dISjt6x5L.png</thumbnail>
+<fanart>http://.de//IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR red]•   [/B][COLOR yellow][B]TDT 
+[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>https://www.tdtchannels.com/lists/tv.m3u8</externallink>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+<thumbnail>https://ggscore.com/media/logo/t49919.png</thumbnail>
+</item>
+
+
+  <item>
+<title>[B][COLOR red]•   [/B][COLOR yellow][B]TV MUNDIAL[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://vertv.de/VERTV/TV/TVMUNDIAL.xml</externallink>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/TV/iconostv/MUNDIAL.png</thumbnail>
+</item>
+
+
+
+  <item>
+<title>[B][COLOR red]•   [/B][COLOR yellow][B]RADIOS DE ESPAÑA[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://vertv.de/VERTV/TV/radiosdespana.m3u</externallink>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/TDTLOGOS/radios.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR red]•   [/B][COLOR yellow][B]TV GUIA[/B][/COLOR]</title>
+ <link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightslategray][COLOR yellow][B][makelist.param1][/B][/COLOR][COLOR deepskyred][B][makelist.param2] [makelist.param3][/B][/COLOR][/COLOR][makelist.param4] [makelist.param5]</title>
+<link>$doregex[ip]|User-Agent=iPad</link>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+<thumbnail>http://vertv.de/vertv/logo/logo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[title=.*?n\s(.*?)"|"(ahor.*?)">\n\s\s\s(.*?)\n|date">(.*?)</span>\n\s\s\s(.*)\n]]></expres>
+<page>http://www.formulatv.com/programacion/</page>
+</regex>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+<thumbnail>https://www.tvguia.es/sites/default/themes/tvstyle/images/guia-tv.png</thumbnail>
+<info>WWW.vertv.top</info>
+ </item>
+
+<item>
+<title>[B][COLOR red]•   [COLOR yellow]MAGELLAN CANALES DE VARIOS PAISES [/COLOR][/B]</title>
+<link>http://ignora.me</link>
+<externallink>http://vertv.de/CLIENTES/CLIENTE-JOSER/MAGELLAN.xml</externallink>
+<thumbnail>https://www.pallok.com/wp-content/uploads/2017/01/magellan-logo-by-aba.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] M+ #0[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/canal-0-plus-en-directo-online-gratis|User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G925F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36$$lsname=[B][COLOR yellow]M+ #0[/COLOR][/B]</link>
+<thumbnail>http://photocall.xyz/images/canalplus.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] 24H[/B][/COLOR]</title>
+<link>https://rtvelivestream.akamaized.net/24h_dvr_1850.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36$$lsname=[B][COLOR yellow]24H[/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/TDTLOGOS/24H.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]LA 1 [/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/TV/espana/tve1/|Referer=https://adictosalatele.com/TV/espana/tve1/$$lsname=[B][COLOR yellow]LA 1[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/TV/espana/tve1/canal2.php|Referer=https://adictosalatele.com/TV/espana/tve1/canal2.php$$lsname=[B][COLOR yellow]LA 1[/COLOR][/B]</link>
+<link>http://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@583042/master.m3u8?$$lsname=[B][COLOR yellow]LA 1[/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/TDTLOGOS/LA1-1.png<thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]LA 2[/B][/COLOR]</title>
+<link>https://rtve-la2-vod-dash.secure.footprint.net/live/nas_live/la2/dash/la2.mpd?begin=&end=&nvb=1527155886&nva=1958691886&hash=0ae1770a50b90e674c10d41574a6be52c9fdbf85c?$$lsname=[B][COLOR yellow]LA 2[/COLOR][/B]</link>
+<link>https://hlsliveamdgl0-lh.akamaihd.net/i/hlsdvrlive_1@60531/master.m3u8?$$lsname=[B][COLOR yellow]LA 2[/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/TDTLOGOS/LA2.png<thumbnail> 
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]ANTENA 3[/B][/COLOR]</title>
+<link>http://cdn2.interlibre.net/hls/149/index.m3u8?$$lsname=[COLOR yellow][B]ANTENA [/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/TV/espana/antena3/canal2.php|Referer=https://adictosalatele.com/TV/espana/antena3/canal2.php$$lsname=[B][COLOR yellow]ANTENA [/COLOR][/B]</link>
+<link>https://livestartover.atresmedia.com/a3internacional/master.m3u8?$$lsname=[COLOR yellow][B]ANTENA [/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/TDTLOGOS/A3.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+
+	
+
+
+ 
+ <item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]TELECINCO  [/B][/COLOR]</title>
+<link>http://linear01-i.akamaihd.net/hls/live/837810/telecinco/01.m3u8?$$lsname=[B][COLOR yellow]TELECINCO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/TV/espana/telecinco/|Referer=https://adictosalatele.com/TV/espana/telecinco/?$$lsname=[B][COLOR yellow]TELECINCO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/TV/espana/telecinco2/|Referer=https://adictosalatele.com/TV/espana/telecinco2/?$$lsname=[B][COLOR yellow]TELECINCO[/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/TDTLOGOS/T5.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+ 
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]LA QUATRO [/B][/COLOR]</title>
+<link>http://linear02-i.akamaihd.net/hls/live/837811/cuatro/02.m3u8?$$lsname=[COLOR yellow][B]LA CUATRO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/TV/espana/lacuatro/$$lsname=[B][COLOR yellow]LA CUATRO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/TV/espana/lacuatro2/?$$lsname=[B][COLOR yellow]LA CUATRO[/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/TDTLOGOS/C4.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]LA SEXTA [/B][/COLOR]</title>
+<link>http://cdn2.interlibre.net/hls/151/index.m3u8?$$lsname=[COLOR yellow][B]LA SEXTA[/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/TDTLOGOS/SEXTA.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]TEN [/B][/COLOR]</title>
+<link>http://91.126.141.201:1935/live/ten/.m3u8</link>
+<thumbnail>http://photocall.xyz/images/ten.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]MTMAD  [/B][/COLOR]</title>
+<link>https://mdssplive-lh.akamaihd.net/i/mtmad_1@744785/index_2500_av-p.m3u8</link>
+<thumbnail>http://photocall.xyz/images/mtmad.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]PARAMOUNT  [/B][/COLOR]</title>
+<link>http://run.iptv.cab:80/live/wulf%20beig/12345vovo/746.m3u8?$$lsname=[COLOR yellow][B]PARAMOUNT[/COLOR][/B][COLOR orange][B]-HD[/COLOR][/B]</link>
+<link>http://paramount.live.flumotion.com/live/chunks.m3u8?fluxustv.m3u8?$$lsname=[COLOR yellow][B]PARAMOUNT[/COLOR][/B]</link>
+<thumbnail>http://photocall.xyz/images/PARCH.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]FDF  [/B][/COLOR]</title>
+<link>http://run.iptv.cab:80/live/wulf%20beig/12345vovo/19475.m3u8?$$lsname=[COLOR yellow][B]FDF[/COLOR][/B][COLOR orange][B]-HD[/COLOR][/B]</link>
+<link>https://mdslivehls-i.akamaihd.net/hls/live/571650/fdf/bitrate_4.m3u8?$$lsname=[COLOR yellow][B]FDF[/COLOR][/B]</link>
+<thumbnail>http://photocall.xyz/images/FDFIC.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+ 
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]BE MAD [/B][/COLOR]</title>
+<link>http://run.iptv.cab:80/live/wulf%20beig/12345vovo/22218.m3u8?$$lsname=[COLOR yellow][B]BE MAD[/COLOR][/B][COLOR orange][B]-HD[/COLOR][/B]</link>
+<link>https://mdslivehlsb-i.akamaihd.net/hls/live/623615/bemad/bitrate_2.m3u8?$$lsname=[COLOR yellow][B]FDF[/COLOR][/B]</link>
+<thumbnail>http://photocall.xyz/images/BEMAD.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]DIVINITY  [/B][/COLOR]</title>
+<link>http://run.iptv.cab:80/live/wulf%20beig/12345vovo/19471.m3u8?$$lsname=[COLOR yellow][B]DIVINITY [/COLOR][/B][COLOR orange][B]-HD[/COLOR][/B]</link>
+<link>http://91.126.141.12:1935/live/smil:divinity.smil/playlist.m3u8?$$lsname=[COLOR yellow][B]DIVINITY [/COLOR][/B]</link>
+<thumbnail>http://photocall.xyz/images/DIVINI.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]ENERGY  [/B][/COLOR]</title>
+<link>http://run.iptv.cab:80/live/wulf%20beig/12345vovo/19467.m3u8?$$lsname=[COLOR yellow][B]ENERGY[/COLOR][/B][COLOR orange][B]-HD[/COLOR][/B]</link>
+<link>https://mdslivehlsb-i.akamaihd.net/hls/live/623617/energy/bitrate_4.m3u8?$$lsname=[COLOR yellow][B]DIVINITY [/COLOR][/B]</link>
+<thumbnail>http://photocall.xyz/images/ENERGY.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] NEOX[/B][/COLOR]</title>
+<link>http://run.iptv.cab:80/live/wulf%20beig/12345vovo/4058.m3u8?$$lsname=[COLOR yellow][B]NEOX[/COLOR][/B][COLOR orange][B]-HD[/COLOR][/B]</link>
+<link>https://livestartover.atresmedia.com/geoneox/bitrate_2.m3u8?$$lsname=[COLOR yellow][B]NEOX[/COLOR][/B]</link>
+<thumbnail>http://photocall.xyz/images/NEOX.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] A3SERIES [/B][/COLOR]</title>
+<link>https://livestartover.atresmedia.com/geoa3series/bitrate_2.m3u8</link>
+<thumbnail>http://photocall.xyz/images/ATRESS.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]MEGA [/B][/COLOR]</title>
+<link>https://livestartover.atresmedia.com/geomega/bitrate_2.m3u8</link>
+<thumbnail>http://photocall.xyz/images/MEGA.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item> 
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]CLEAN TV[/B][/COLOR]</title>
+<link>http://run.iptv.cab:80/live/wulf%20beig/12345vovo/19476.m3u8?$$lsname=[COLOR yellow][B]NOVA[/COLOR][/B][COLOR orange][B]-HD[/COLOR][/B]</link>
+<thumbnail>http://photocall.xyz/images/CLANTV.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] NOVA[/B][/COLOR]</title>
+<link>https://livestartover.atresmedia.com/geonova/bitrate_2.m3u8?$$lsname=[COLOR yellow][B]NOVA[/COLOR][/B]</link>
+<thumbnail>http://photocall.xyz/images/NOVA.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]TELEMADRID [/B][/COLOR]</title>
+<link>http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/telemadrid1/bitrate_2.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>http://photocall.xyz/images/telemadrid.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]BOING [/B][/COLOR]</title>
+<link>http://linear01-i.akamaihd.net/hls/live/837814/boing/01.m3u8?$$lsname=[COLOR yellow][B]BOING[/COLOR][/B]</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>http://photocall.xyz/images/BOING.png</thumbnail>   
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]LA OTRA [/B][/COLOR]</title>
+<link>http://laotrahls-live.hls.adaptive.level3.net/telemadrid/laotra1/bitrate_1.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>http://photocall.xyz/images/laotra.png</thumbnail>   
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+<!-- <item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]CANAL SUR [/B][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=$doregex[getLiveVideoId]</link>
+	<regex>
+		<name>getLiveVideoId</name>
+		<expres>watch\?v=(.*?)"</expres>
+		<page>https://www.youtube.com/embed/live_stream?channel=UCqwjtgaJflHga2aPWphG5PQ&rel=0&modestbranding</page>
+		<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0</agent>
+		<cookieJar></cookieJar>
+	</regex>
+<thumbnail>http://photocall.xyz/images/canalsur.png</thumbnail>
+<<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+
+</item> -->
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]CANAL SUR [/B][/COLOR]</title>
+<link>https://cdnlive.shooowit.net/rtvalive/channelDVR.smil/chunklist_b800000_DVR.m3u8?$$lsname=[COLOR yellow][B]CANAL SUR[/COLOR][/B]</link>
+<link>https://593fa17dec176.streamlock.net/csturismo/csturismo.stream/chunklist_w1817271174.m3u8?$$lsname=[COLOR yellow][B]CANAL TURISMO[/COLOR][/B]</link>
+<link>https://593fa17dec176.streamlock.net/cscocina/cscocina.stream/.m3u8?$$lsname=[COLOR yellow][B]CANAL COSINA[/COLOR][/B]</link>
+<link>https://593fa17dec176.streamlock.net/cslabanda/cslabanda.stream/chunklist_w552749225.m3u8?$$lsname=[COLOR yellow][B]LA BANDA[/COLOR][/B]</link>
+<link>https://593fa17dec176.streamlock.net/csflamenco/csflamenco.stream/chunklist_w1162727765.m3u8?$$lsname=[COLOR yellow][B]FLAMENCO[/COLOR][/B]</link>
+<thumbnail>http://photocall.xyz/images/canalsur.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] RT NOTICIAS[/B][/COLOR]</title>
+<link>https://rt-esp.secure.footprint.net/1102_400Kb.m3u8</link>
+<thumbnail>http://photocall.xyz/images/rt.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] TELE SUR[/B][/COLOR]</title>
+<link>http://d2ajt1gpdtnw25.cloudfront.net/mbliveMain/480p/.m3u8</link>
+<thumbnail>http://photocall.xyz/images/telesur.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]DKISS [/B][/COLOR]</title>
+<link>http://91.126.141.201:1935/live/kiss/.m3u8</link>
+<thumbnail>http://photocall.xyz/images/dkiss.png</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]MTV[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/mtv-espana-en-directo-online-gratis/|User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G925F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36$$lsname=[B][COLOR yellow]MTV[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/mtv-espana-en-directo-online-gratis/|User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G925F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/VARIEDADES/mtv.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] COMEDIA CNETRAL[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://streamcdn.to/e/ujx1zzjkz4td1|User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G925F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36$$lsname=[B][COLOR yellow]COMEDIA CNETRAL[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/mtv-espana-en-directo-online-gratis/|User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G925F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/VARIEDADES/centralcomedia.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] DARK[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/canal-dark-en-directo-online-gratis/|User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G925F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36$$lsname=[B][COLOR yellow]DARK[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/mtv-espana-en-directo-online-gratis/|User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G925F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/VARIEDADES/dark.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]CANAL TOROS[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/canal-toros-en-directo-online-gratis/|User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G925F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36$$lsname=[B][COLOR yellow]CANAL TOROS[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/mtv-espana-en-directo-online-gratis/|User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G925F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/VARIEDADES/toros.jpg</thumbnail>   
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] CALLE 13[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/calle-13-en-directo-online-gratis/$$lsname=[B][COLOR yellow]CALLE 13[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/movistarestrenos.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/VARIEDADES/Ccalle13.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] M+ ACCION[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-accion-en-directo-online-gratis/$$lsname=[B][COLOR yellow]M+ ACCION[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/movistaraccion.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/accion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+  
+  
+  
+  
+  
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] M+ COMEDIA[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-comedia-en-directo-online-gratis/$$lsname=[B][COLOR yellow]M+ COMEDIA[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/movistaraccion.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/comedia.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] M+ DRAMA[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-drama-en-directo-online-gratis/$$lsname=[B][COLOR yellow]DCINE[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/movistardcinen.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/drama.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] M+ DCINE[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-dcine-en-directo-online-gratis/$$lsname=[B][COLOR yellow]DCINE[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/movistardcinen.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/dcine.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] M+ ESTRENOS[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-estrenos-en-directo-online-gratis/$$lsname=[B][COLOR yellow]M+ ESTRENOS[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/movistarestrenos.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/estrenos.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] M+ SERIES[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-series-en-directo-online-gratis/$$lsname=[B][COLOR yellow]M+ ESTRENOS[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/movistarestrenos.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/series.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] TCM[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/tcm-en-directo-online-gratis/$$lsname=[B][COLOR yellow]TCM[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/movistarestrenos.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/tmc.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] AMC[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/amc-en-directo-online-gratis/$$lsname=[B][COLOR yellow]M+ ESTRENOS[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/movistarestrenos.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/amc.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] AXN[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/axn-en-directo-online-gratis/$$lsname=[B][COLOR yellow]AXN[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/axnwhite.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/axn.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+</item>
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] HOLLYWORD[/B][/COLOR]</title>
+<link>http://run.iptv.cab:80/live/wulf%20beig/12345vovo/4058.m3u8?$$lsname=[COLOR yellow][B] FOX[/COLOR][/B][COLOR orange][B]-HD[/COLOR][/B]</link>
+<thumbnail></thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] BLAZER[/B][/COLOR]</title>
+
+<thumbnail></thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] FOX[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/fox-espana-en-directo-online-gratis/$$lsname=[B][COLOR yellow]FOX[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/fox.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/fox.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+</item>
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]FOXLIVE [/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/fox-life-en-directo-online-gratis/$$lsname=[B][COLOR yellow]FOXLIVE[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://streamcdn.to/e/ag9vtjxj62$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/tnt.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+</item>
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] PARAMOUNT[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26urlhttps://adictosalatele.com/paramount-channel-en-directo-online-gratis/$$lsname=[B][COLOR yellow]FOX[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/fox.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/paramount.jpg</thumbnail> 
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] ENERGY[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26urlhttps://adictosalatele.com/energy-en-directo-online-gratis/$$lsname=[B][COLOR yellow]FOX[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/fox.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/e.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]TNT [/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/tnt-en-directo-online-gratis/$$lsname=[B][COLOR yellow]TNT[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://streamcdn.to/e/ygv76jy$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/tnt.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] SYFY[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/syfy-en-directo-online-gratis/$$lsname=[B][COLOR yellow]FOXLIVE[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://streamcdn.to/e/ag9vtjxj62$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/PELICULAS/syfy.jpg</thumbnail>   
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart></item>
+</item>
+     
+     
+     
+     
+     
+
+     
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] DISCOVERY CHANNEL[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/discovery-channel-en-directo-online-gratis/$$lsname=[B][COLOR yellow]FOXLIVE[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://streamcdn.to/e/ag9vtjxj62$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/DOCUMENTARIOSLOGOS/Discovery-Channel-Online-208x119.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] DISCOVERY TURBO[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/discovery-turbo-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]DISCOVERY TURBO AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/discovery-turbo-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail></thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] DISCOVERY THEATER[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/discovery-theater-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow] DISCOVERY THEATER AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/discovery-theater-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail></thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] DISCOVERY SCIENCE[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/discovery-science-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow] DISCOVERY SCIENCE AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/discovery-science-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail></thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] DISCOVERY CIVILIZATION[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/discovery-civilization-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]DISCOVERY CIVILIZATION AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/discovery-civilization-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail></thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [COLOR yellow][B]DISCOVERY MAX[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://streamcdn.to/e/0zaptztb$$lsname=[B][COLOR yellow]DISCOVERY CHANNEL [/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://streamcdn.to/e/0zaptztb$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/discoverymax.jpg</thumbnail>   
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+
+--------------------
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] HISTORIA[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/history-en-directo-online-gratis/$$lsname=[B][COLOR yellow]HISTORIA AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/history-en-directo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/DOCUMENTARIOSLOGOS/History-Channel-Online-208x119.jpg</thumbnail>   
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+-------------------------------
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] NATIONAL GEOGRAPHIC[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/national-geographic-en-directo-online-gratis/$$lsname=[B][COLOR yellow]NATIONAL GEOGRAPHIC AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/national-geographic-en-directo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/DOCUMENTARIOSLOGOS/National-Geographic-Online-208x119.jpg</thumbnail>   
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] AE[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/national-geographic-en-directo-online-gratis/$$lsname=[B][COLOR yellow]NATIONAL GEOGRAPHIC AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/national-geographic-en-directo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/AE.jpg</thumbnail>   
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [COLOR yellow][B] NATGEO WILD[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/nat-geo-will-en-directo-online-gratis/$$lsname=[B][COLOR yellow] NATGEO WILD AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/nat-geo-will-en-directo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/natgeo.jpg</thumbnail>   
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item> 
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]ODISEA[/B][/COLOR]</title>
+
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/odisea.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]CAZA Y PESCA [/B][/COLOR]</title>
+
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/cazaypesca.php$$lsname=[B][COLOR yellow]CAZA Y PESCA[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://revolucionariostv.eu/MultiTV/cazaypesca.php$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/cazaypesca.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]CRIMEN E INVESTIGACION[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/ci-crimen-y-investigacion-en-directo-online-gratis/$$lsname=[B][COLOR yellow]CRIMEN E INVESTIGACION AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/ci-crimen-y-investigacion-en-directo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/crimenyenvestigacion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]ANIMAL PLANET[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/animal-planet-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]ANIMAL PLANET AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/animal-planet-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/crimenyenvestigacion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]FOX ACTTION[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/syfy-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]ANIMAL PLANET AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/syfy-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/crimenyenvestigacion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]SONY CHANNEL[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/canal-sony-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]SONNY CHANNEL AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/canal-sony-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/crimenyenvestigacion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]TNT SERIES[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/tnt-series-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]TNT SERIS AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/tnt-series-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/crimenyenvestigacion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]HBO[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/hbo-signature-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]HBO AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/hbo-signature-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/crimenyenvestigacion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]HBO FAMILY[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/hbo-family-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]HBO AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/hbo-family-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/crimenyenvestigacion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]HBO PLUS[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/hbo-plus-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]HBO  AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/hbo-plus-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/crimenyenvestigacion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]HBO 2[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/hbo-2-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]HBO  AUDIO LATINO[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/hbo-2-latino-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/crimenyenvestigacion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]FOX MOVIES[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/fox-movies-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]FOX MOVIES[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/fox-movies-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/crimenyenvestigacion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]FOX COMEDIA[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/fox-comedy-en-vivo-online-gratis/$$lsname=[B][COLOR yellow]FOX COMEDIA[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/fox-comedy-en-vivo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DOCUMENTALES/crimenyenvestigacion.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]LA LIGA 1,2,3[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-la-liga-en-directo-online-gratis/$$lsname=[B][COLOR yellow]LA LIGA [/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-la-liga-en-directo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DEPORTES/laliga123.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart><thumbnail></thumbnail>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]LIGA DE LOS CAMPEONES[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-liga-de-campeones-en-directo-online-gratis/$$lsname=[B][COLOR yellow]LIGA DE LOS CAMPEONES[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-liga-de-campeones-en-directo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DEPORTES/futibol.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]BEIN SPORT[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-deportes-en-directo-online-gratis/$$lsname=[B][COLOR yellow]DEPORTE[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/movistar-deportes-en-directo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DEPORTES/beinsport.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart><thumbnail></thumbnail>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]GOL[/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embeddeporte2.php?file=golesp&width=650&height=397</page>
+<referer>http://verbeinlaliga.com/gol-tv/</referer>
+</regex>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DEPORTES/gol.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart><thumbnail></thumbnail>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]DEPORTES 1[/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embeddeporte2.php?file=deporteone&width=650&height=397</page>
+<referer>http://verbeinlaliga.com/movistar-deporte-1/</referer>
+</regex>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DEPORTES/deporte1.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]LA LIGA[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/la-liga-smartbank-en-directo-online-gratis/$$lsname=[B][COLOR yellow]LA LIGA[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/la-liga-smartbank-en-directo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DEPORTES/deporte2.jpg</thumbnail>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]# VAMOS[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/canal-vamos-en-directo-online-gratis/$$lsname=[B][COLOR yellow]# VAMOS[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/canal-vamos-en-directo-online-gratis/$$lsname=[B][COLOR yellow][/COLOR][/B]</link>
+<thumbnail>http://vertv.de//VERTV/TV/ICONOSESPANOL/DEPORTES/formula1.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow]MOVISTAR MOTOGP[/B][/COLOR]</title>
+<link>http://$doregex[Igor_Rangel_IP]:8088/stream/hvhvhjvhvghjk/playlist.m3u8?id=1086&amp;pk=$doregex[Igor_Rangel_Pk]|User-Agent: Mozilla/5.0</link>
+<regex>
+<name>Igor_Rangel_IP</name>
+<expres>redirect=(.*)<expres>
+<page>http://www.pubfstream.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>Igor_Rangel_Pk</name>
+<expres>pk=(.*?)"</expres>
+<page>http://www.fstream.me/membedplayer/Igor_Rangel/1/500/400</page>
+<referer>http://www.fstream.me/</referer>
+<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
+</regex>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/DEPORTES/motogp.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR red]•   [/B][/COLOR][B][COLOR yellow] LIBERTAD DIGITAL[/B][/COLOR]</title>
+<link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+	<regex>
+	<name>get-m3u8final</name>
+	<expres>(http.*?)\s</expres>
+	<page>$doregex[get-m3u8]</page>
+	<agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+	<cookieJar></cookieJar>
+	</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+    
+	<regex>
+	<name>get-json</name>
+	<expres>config = ({.*})</expres>
+	<page>https://livestream.com/accounts/2614936/events/1848989/player?audelay=true</page>
+	<agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+	<cookieJar></cookieJar>
+	</regex>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/TDT/libertaddigital.jpg</thumbnail>
+<fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[COLOR yellow][B]Galiza tv[/B][/COLOR]</title>
+<link>http://run.iptv.cab:80/live/wulf%20beig/12345vovo/4057.m3u8?$$lsname=[COLOR yellow][B]NATGEO WILD[/COLOR][/B][COLOR orange][B]-HD[/COLOR][/B]</link>
+<link>http://europa-crtvg.flumotion.com/crtvg/europa_med/chunks.m3u8<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/galicia.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+
+
+<item>
+<title>[COLOR yellow][B]Canal Estremadura[/B][/COLOR]</title>
+<link>http://cdnapi.kaltura.com/p/2288691/sp/39582391/playManifest/entryId/0_xs45iy5i/format/applehttp/.m3u8<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/extremadura.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+<item>
+<title>[COLOR yellow][B]Aragon Tv[/B][/COLOR]</title>
+<link>http://aragontv.stream.flumotion.com/aragontv/hls-live/main.m3u8<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/aragon.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+<item>
+<title>[COLOR yellow][B]Asturias Tv[/B][/COLOR]</title>
+<link>http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/asturias.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+<item>
+<title>[COLOR yellow][B]Castilla la Mancha Tv[/B][/COLOR]</title>
+<link>http://klive-a.akamaihd.net/dc-1/live/hls/p/2288691/e/1_c9gw17x6/sd/10000/t/o8xKPUjaWz2E6hV7vICo1Q/index-s32.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/cmm.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+<item>
+<title>[COLOR yellow][B]Andorra Tv[/B][/COLOR]</title>
+<link>http://194.158.80.31:443/live/rtva/playlist.m3u8<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/andorra.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+<item>
+<title>[COLOR yellow][B]8 Tv[/B][/COLOR]</title>
+<link>http://streaming.enetres.net/489DDF7FE98241D19D8970314BC9D3EF021/live.smil/.m3u8<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/8tv.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+
+
+
+<item>
+<title>[COLOR yellow][B]Illes Baleares Tv[/B][/COLOR]</title>
+<link>http://ibsatiphone.ib3tv.com/iphoneliveIB3/IB3/IB3.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/i3.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+<item>
+<title>[COLOR yellow][B]Onda Cadiz[/B][/COLOR]</title>
+<link>http://adc.hls.flumotion.com/adc/live-hls/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/ondacadiz.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+
+<item>
+<title>[COLOR yellow][B]Girona Tv[/B][/COLOR]</title>
+<link>http://ventdelnord.tv:8080/girona/directe.m3u8<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/jirona.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+
+
+<item>
+<title>[COLOR yellow][B]Telebilbao[/B][/COLOR]</title>
+<link>http://cls.todostreaming.eu/telebilbao/restricted/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/telebilbao.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR yellow][B]Onda Azul Malaga[/B][/COLOR]</title>
+<link>http://canalmalaga-tv-live.flumotion.com/playlist.m3u8<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/ondaluz.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+
+
+
+
+<item>
+<title>[COLOR yellow][B]Levante Tv[/B][/COLOR]</title>
+<link>http://teledifusion.tv:1935/levantetvlive/levantetvlive/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link><thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/levante.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+
+
+
+<item>
+<title>[COLOR yellow][B]Tv3[/B][/COLOR]</title>
+<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3_web/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/tv3.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow][B]Marbella Tv[/B][/COLOR]</title>
+<sportsdevil>http://cls.todostreaming.eu/marbellatv/saldubatv/.m3u8</sportsdevil>
+<referer>http://cls.todostreaming.eu</referer>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/marbella.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR yellow][B]TORREMOLINOS[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36&amp;Referer=https://livestream.com/accounts/2614936/events/1848989/player?width=640&amp;height=360&amp;autoPlay=true&amp;mute=false&amp;X-Requested-With=ShockwaveFlash/22.0.0.192</link>
+<regex>
+<name>url</name>
+<expres>smil","m3u8_url":"(.*)","secure_m3u8_url</expres>
+<page>https://livestream.com/accounts/2614936/events/1848989/player?width=640&amp;height=360&amp;autoPlay=true&amp;mute=false</page>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/torremolinos.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+</regex>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow][B]COSTA DEL SOL[/B][/COLOR]</title>
+<link>http://cls.todostreaming.eu/benalmadena/webtv/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+<thumbnail>http://vertv.de/VERTV/TV/ICONOSESPANOL/LOCALES/costadelsol.jpg</thumbnail><fanart>http://vertv.de/VERTV/IMAGENES/fondoespanha.jpg</fanart></item>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</item>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://adictosalatele.com/TV/espana/lacuatro2/?$$lsname=[B][COLOR yellow]LA CUATRO[/COLOR][/B]</link>

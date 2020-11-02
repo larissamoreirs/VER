@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<item>
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR white][B]WWW.VER[/B][/COLOR] [COLOR aqua][B]TV.TOP[/B][/COLOR]</title>
+<thumbnail>http://vertv.top/VERTV/LOGO/logo.png</thumbnail>
+<fanart>http://vertv.top/VERTV/IMAGENS/background.jpg</fanart>
+<link>http://198.255.76.34:8080/globo/index.m3u8</link>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR aqua] CAMARAS 29 PAISES DEL MUNDO[/COLOR] [COLOR white](CLICAR AQUI)[/COLOR]</title>
+<link>$doregex[list]</link>
+<thumbnail></thumbnail>
+<regex>
+<name>list</name>
+<listrepeat><![CDATA[
+<title>[COLOR aqua]•[/COLOR][COLOR white] [list.param2][/COLOR] </title>
+<link>$doregex[list2]</link>
+<referer></referer>
+ <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="([^\"]+)" class="menu-item">(.*?)&]]></expres>
+<page>https://www.skylinewebcams.com/en/webcam.html</page>
+<agent>Mozilla/5.0</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>list2</name>
+<listrepeat><![CDATA[
+<title>[COLOR aqua]Camaras[/COLOR]  [COLOR white][list2.param3][/COLOR] </title>
+<link>$doregex[cams]|User-Agent=iPhone</link>
+editado 
+<thumbnail>https://[list2.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA["webcam"><a href="(.*?)".*?inal="(.*?)".*?title">(.*?)<.*?ption">(.*?)<]]></expres>
+<page>https://www.skylinewebcams.com[list.param1]</page>
+<agent>Mozilla/5.0</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>cams</name>
+<expres><![CDATA[#$pyFunction
+import requests, re
+def GetLSProData(page_data,Cookie_Jar,m,url = 'https://www.skylinewebcams.com[list2.param1]'):
+ headers = {'User-Agent': 'Mozilla/5.0','Referer': 'https://www.skylinewebcams.com'}
+ source = requests.get(url, headers=headers)
+ m3u8sX = re.findall(',url:.*?([^\']+)', source.text)[0]
+ return m3u8sX + '|headers'
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.linkupinternet.com.ar/linkup2/wp-content/uploads/2017/03/3.jpg</thumbnail>
+<fanart>http://www.masingenieros.com/wp-content/uploads/2014/12/avion-despegando-de-la-pista-en-el-aeropuerto.jpg</fanart>
+</item> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
