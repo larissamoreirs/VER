@@ -25,7 +25,7 @@
 <item>
 <title>[B][COLOR lime][B]ESPANHA TV[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=1B9_fA0wCEXmwF5lBAv1mTzGVbiU1xGsd&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/TVES/ESPANHATV.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
@@ -36,25 +36,19 @@
 <item>
 <title>[B][COLOR lime][B]ALEMANHA[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=1O193wWEjDAP3BWYdwbGYNfijB4qM5Xe9&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/TVGER/ALEMANHA.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENES/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
 
 
-<item>
-<title>[B][COLOR lime][B]ALEMANHA VIP[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=12hOsOW0r7YHuhGDlk3Y9pqOkQ2x-ZHeH&export=download</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
-</item>
+
 
 
 <item>
-<title>[B][COLOR lime][B]GRAVADOS BR[/B][/COLOR]</title>
+<title>[B][COLOR lime][B]PROGRAMA TV HRAVADA[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=1pEPAABt2elR00XCS8K3dNsAhT_Lu97qg&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/GRAVADOSBR/TVGRAVADA/PROGRAMASTVGRAVADA.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
@@ -63,7 +57,7 @@
 <item>
 <title>[B][COLOR lime][B]DOCUMENTARIOS[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=14SCuWUghStofDTAvQ56Tdw30Tl8fVZKy&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/GRAVADOSBR/DOCUMENTARIOS/DOCUMENTARIOS.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
@@ -73,7 +67,7 @@
 <item>
 <title>[B][COLOR lime][B]NOVELAS[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=13DlnwJcAxvmHEZpgyW4NnPwh0zA3BXWM&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/GRAVADOSBR/NOVELAS/NOVELAS.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
@@ -83,7 +77,7 @@
 <item>
 <title>[B][COLOR lime][B]SHOWS[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=1J2BUrkXS9aebznxn7D_KV6lX4EM3KTd2&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/GRAVADOSBR/SHOWS/SHOWS.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
@@ -93,7 +87,7 @@
 <item>
 <title>[B][COLOR lime][B]WEBCAM[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=1m02apX6rIzqiNOxfjR6Hy-1G2J8BOUfU&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/WEBCAM/WEBCAM-BR.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
@@ -104,7 +98,7 @@
 <item>
 <title>[B][COLOR lime][B]FILMES[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=1KJ8doE5eXBWLkjrmjmRxtCz3n8YNhmd0&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/FILMES/FILMES.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
@@ -114,7 +108,7 @@
 <item>
 <title>[B][COLOR lime][B]MANUAL[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=1s2QuY5ubfFJ11gVjglN76EkNjTYhYFOI&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/MANUAL/TUTORIAL.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
@@ -124,7 +118,7 @@
 <item>
 <title>[B][COLOR lime][B]RADIO BRASIL[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=19QsAsRWBfEjTRQuXOmK27Mpgflb1Qqb4&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/RADIOS/BRASIL/RADIOSBR.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
@@ -133,7 +127,7 @@
 <item>
 <title>[B][COLOR lime][B]RADIO ESPANHA[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=14-8sqWAnQlpe_LRJsu3ZupD7l8tBCjDR&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/RADIOS/ESPANHA/RADIOSES.m3u</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
@@ -143,7 +137,7 @@
 <item>
 <title>[B][COLOR lime][B]MUSICAS[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=1T8RWI262Mbs9xrJOgI-X4s8N9wMnj5wN&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/RADIOS/MUSICAS/MUSICAS.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
@@ -153,7 +147,7 @@
 <item>
 <title>[B][COLOR lime][B]NAVIDAD[/B][/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>https://drive.google.com/uc?id=1P-ry2v0cG8MIAREiLuyaUFmPO4dOW3al&export=download</externallink>
+<externallink>https://raw.githubusercontent.com/charleswulf/VER/main/ESPECIALNAVIDAD/NATAL.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
 <thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
 </item>
