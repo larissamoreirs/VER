@@ -16,17 +16,17 @@
 
 <item>
 <title>[B][COLOR navy]•   [COLOR lime]RTL  [/COLOR][/B]</title>
-<link>https://1.bild-upload.com/rtloo/tracks-v1a1/mono.m3u8$$lsname=[B][COLOR lime]RTL[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/rtl.php|Referer=https://www.hdtvde.com/tv4/rtl.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
+	<link>http://5.135.92.133:52841/out/u/115_1.m3u8</link>
 <fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
 <thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/02/1.png</thumbnail>
 </item>
 
 
+
+
 <item>
 <title>[B][COLOR navy]•   [COLOR lime]VOX  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://tv-livestream.online/rtl-live/$$lsname=[B][COLOR lime]VOX[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/rtl.php|Referer=https://www.hdtvde.com/tv4/rtl.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
+<link>http://5.135.92.133:52841/out/u/123_1.m3u8</link>
 <fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
 <thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/02/3.png</thumbnail>
 </item>
@@ -35,13 +35,18 @@
 
 <item>
 <title>[B][COLOR navy]•   [COLOR lime]RTL 2  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/rtl22.php|Referer=https://www.hdtvde.com/tv4/rtl.php$$lsname=[B][COLOR lime]RTL 2[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/rtl22.php|Referer=https://www.hdtvde.com/tv4/rtl.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
+<link>http://5.135.92.133:52841/out/u/119_1.m3u8</link>
 <fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
 <thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/02/2.png</thumbnail>
 </item>
 
-
+<item>
+<title>[B][COLOR navy]•   [COLOR lime] KIKA[/COLOR][/B]</title>
+<link>https://kikageohls-i.akamaihd.net/hls/live/1006268-b/livetvkika_de/master_288.m3u8$$lsname=[B][COLOR lime]ZDF[/COLOR][/B]</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
+<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+<thumbnail>https://2ix2.com/wp-content/uploads/2019/09/8.png</thumbnail>
+</item>
 
 
 <item>

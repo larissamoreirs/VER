@@ -1,75 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
-<title>[B][COLOR lime]|||[/COLOR][COLOR navy]|||[/COLOR][COLOR yellow]|||[/COLOR] [COLOR white]SEJA BEM-VINDO AO VERTV[/COLOR] [COLOR lime]|||[/COLOR][COLOR navy]|||[/COLOR][COLOR yellow]|||[/COLOR][/B]</title>
-<link>http://cloudfiare.com.cdntraffice.com/live/D3NUhMvnc3o611/rfFgt0D2rxrN58/3825.m3u8</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logo.png</thumbnail>
+<title>[COLOR white][B]WWW.VER[/B][/COLOR] [COLOR red][B]TV.de[/B][/COLOR]</title>
+<link>http://c6.jknd.tk:84/web/kostenloshdtv.com/94.23.204.153/1562606958/IRTQfI1Tu-K5gdqn04XghA/10691.m3u8</link><thumbnail>http://vertv.de/VERTV/LOGO/logo1.png</thumbnail>
 <fanart>http://vertv.de/VERTV/IMAGENS/vertvinfo.jpg</fanart>
 </item>
 
 
 
-
-
-
-
-
-
 <item>
-<title>[B][COLOR navy]•   [COLOR lime]RTL  [/COLOR][/B]</title>
-<link>https://1.bild-upload.com/rtloo/tracks-v1a1/mono.m3u8$$lsname=[B][COLOR lime]RTL[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/rtl.php|Referer=https://www.hdtvde.com/tv4/rtl.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/02/1.png</thumbnail>
-</item>
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime]VOX  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://tv-livestream.online/rtl-live/$$lsname=[B][COLOR lime]VOX[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/rtl.php|Referer=https://www.hdtvde.com/tv4/rtl.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/02/3.png</thumbnail>
-</item>
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime]RTL 2  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/rtl22.php|Referer=https://www.hdtvde.com/tv4/rtl.php$$lsname=[B][COLOR lime]RTL 2[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/rtl22.php|Referer=https://www.hdtvde.com/tv4/rtl.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/02/2.png</thumbnail>
+<title>[B][COLOR blue]•   [COLOR lime]Deutsches Fernsehen 1[/COLOR][/B]</title>
+<link>$doregex[makelist]</link><regex><name>makelist</name><listrepeat><![CDATA[
+<title>[COLOR cyan][makelist.param3][/COLOR]</title><link>$doregex[play]|User-Agent=iPhone</link>
+<thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat><expres><![CDATA[<div class="movie.*?">.*?\n.*?<a href="(.*?)">.*?\n.*?<img src="(.*?)".*?alt="(.*?)"]]></expres><page>http://www.pro7livestream.com/category/deutsche-tv-live/</page></regex><regex><name>play</name><expres>$pyFunction: '$doregex[get-url2]' if not '$doregex[get-url2]'=='' else '$doregex[get-url1]'</expres><page></page></regex><regex><name>get-url2</name><expres>file: [\'"](.*?)[\'"]<expres><page>$doregex[embed]</page><referer>http://www.pro7livestream.com/</referer></regex><regex><name>get-url1</name><expres>source: [\'"](.*?)[\'"]<expres><page>[makelist.param1]</page><referer>http://www.pro7livestream.com/</referer></regex><regex><name>embed</name><expres><![CDATA[iframe src="(.*?)"]]></expres><page>[makelist.param1]</page></regex><fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/germanyt.jpg</thumbnail>
 </item>
 
 
 
 
 <item>
-<title>[B][COLOR navy]•   [COLOR lime]NTV  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime]NTV[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
+<title>[B][COLOR blue]•   [COLOR lime]Deutsches Fernsehen 2[/COLOR][/B]</title>
+<link>ignoreme</link>
+<externallink>https://pastebin.com/raw/33DUS6hy</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/02/5.png</thumbnail>
-</item>
-
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime]RTLNITRO  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/nitro.php$$lsname=[B][COLOR lime]RTLNITRO[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/02/6.png</thumbnail>
-</item>
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime]SUPER RTL  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/super.php$$lsname=[B][COLOR lime]SUPER RTL[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/02/4.png</thumbnail>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/germanyt.jpg</thumbnail>
 </item>
 
 
@@ -77,144 +32,27 @@
 
 
 <item>
-<title>[B][COLOR navy]•   [COLOR lime]EUROESPORT  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/rtl.php$$lsname=[B][COLOR lime]EUROESPORT[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
+<title>[B][COLOR blue]•   [COLOR lime]Deutsches Fernsehen 3[/COLOR][/B]</title>
+<link>ignoreme</link>
+<externallink>http://vertv.de/VERTV/TV/alemanha1.xml</externallink>
 <fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/02/7.png</thumbnail>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/germanyt.jpg</thumbnail>
 </item>
 
-
-
+<item>
+<title>[B][COLOR blue]•   [COLOR lime]Deutsches Fernsehen 4[/COLOR][/B]</title>
+<link>ignoreme</link><externallink>https://github.com/jnk22/kodinerds-iptv/raw/master/iptv/kodi/kodi.m3u</externallink><fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/germanyt.jpg</thumbnail>
+</item>	
 
 
 <item>
-<title>[B][COLOR navy]•   [COLOR lime]PRO7  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/1.php$$lsname=[B][COLOR lime]PRO7[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/09/pro7-logo.png</thumbnail>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime]KABEL 1  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/5.php$$lsname=[B][COLOR lime]KABEL 1[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/09/kabel1-logo.png</thumbnail>
-</item>
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime]SAT 1  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/6.php$$lsname=[B][COLOR lime]SAT 1[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/09/sat1-logo.png</thumbnail>
-</item>
-
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime]SIXX  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/7.php$$lsname=[B][COLOR lime]SIXX[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/09/sixx-logo.png</thumbnail>
-</item>
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime]DMAX  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/4.php$$lsname=[B][COLOR lime]DMAX[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/09/dmax-logo.png</thumbnail>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime] SPORT 1  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/13.php$$lsname=[B][COLOR lime]SPORT 1[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://tv.sport1.de/template/image/prg_esports1.png</thumbnail>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime] 7MAXX  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/2.php$$lsname=[B][COLOR lime]7MAXX[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/09/pro7maxx-logo.png</thumbnail>
-</item>
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime] DOKU  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/8.php$$lsname=[B][COLOR lime]DOKU[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/09/kabel1doku-logo.png</thumbnail>
-</item>
-
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime] SAT1 GOLD  [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/6.php$$lsname=[B][COLOR lime]SAT1 GOLD[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/09/sat1-gold-logo.png</thumbnail>
-</item>
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime] DISNEY CHENNEL [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/14.php$$lsname=[B][COLOR lime]DISNEY CHENNEL[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://upload.wikimedia.org/wikipedia/de/0/03/Disney-Channel-Logo-2014.png</thumbnail>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime] TELE5 [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/3.php$$lsname=[B][COLOR lime]TELE5[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://www.hdtvde.com/wp-content/uploads/2018/09/tele5-logo.png</thumbnail>
-</item>
-
-
-
-
-<item>
-<title>[B][COLOR navy]•   [COLOR lime] COMEDY CENTRAL [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/12.php$$lsname=[B][COLOR lime]COMEDY CENTRAL[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://upload.wikimedia.org/wikipedia/de/2/29/Comedy_central_de_hd.png</thumbnail>
+<title>[B][COLOR blue]•   [COLOR lime]Deutsches Fernsehen 5[/COLOR][/B]</title>
+<link>$doregex[makelist]</link><regex><name>makelist</name><listrepeat><![CDATA[
+<title>[COLOR cyan][makelist.param3][/COLOR]</title><link>$doregex[play]|User-Agent=iPhone</link>
+<thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat><expres><![CDATA[<div class="movie.*?">.*?\n.*?<a href="(.*?)">.*?\n.*?<img src="(.*?)".*?alt="(.*?)"]]></expres><page>http://www.pro7livestream.com/category/deutsche-tv-live/</page></regex><regex><name>play</name><expres>$pyFunction: '$doregex[get-url2]' if not '$doregex[get-url2]'=='' else '$doregex[get-url1]'</expres><page></page></regex><regex><name>get-url2</name><expres>file: [\'"](.*?)[\'"]<expres><page>$doregex[embed]</page><referer>http://www.pro7livestream.com/</referer></regex><regex><name>get-url1</name><expres>source: [\'"](.*?)[\'"]<expres><page>[makelist.param1]</page><referer>http://www.pro7livestream.com/</referer></regex><regex><name>embed</name><expres><![CDATA[iframe src="(.*?)"]]></expres><page>[makelist.param1]</page></regex><fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
+<thumbnail>http://vertv.de/VERTV/TV/BRASILICONO/germanyt.jpg</thumbnail>
 </item>
 
 
@@ -222,13 +60,31 @@
 
 
 
-<item>
-<title>[B][COLOR navy]•   [COLOR lime] ZDF [/COLOR][/B]</title>
-<link>https://zdf-hls-01.akamaized.net/hls/live/2002460/de/56023f888ca0c6b919de43a294c526e4/4/4.m3u8$$lsname=[B][COLOR lime]ZDF[/COLOR][/B]</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.hdtvde.com/tv4/ntv.php|Referer=https://www.hdtvde.com/tv4/ntv.php$$lsname=[B][COLOR lime][/COLOR][/B]</link>
-<fanart>http://vertv.de/VERTV/IMAGENS/background10.jpg</fanart>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/1280px-ZDF_logo.svg.png</thumbnail>
-</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

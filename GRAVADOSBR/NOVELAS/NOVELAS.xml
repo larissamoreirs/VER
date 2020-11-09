@@ -10,817 +10,181 @@
 
 
 
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]AVENIDA BRASIL[/B][/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/1/15/Avenida_brasil_logo.jpeg</thumbnail>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/AVENIDABRASIL.xml</externallink>
-<link>http://ignora.me</link>
-<fanart>https://upload.wikimedia.org/wikipedia/en/1/15/Avenida_brasil_logo.jpeg</fanart>
-</item>
-
-
-
-<item>
-<title>[B][COLOR lime][B]A VIAGEM[/B][/COLOR]</title>
-<thumbnail>https://i.ytimg.com/vi/1TJ4oqbOX0s/hqdefault.jpg</thumbnail>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/AVIAGEM.xml</externallink>
-<link>http://ignora.me</link>
-<fanart>https://i.ytimg.com/vi/1TJ4oqbOX0s/hqdefault.jpg</fanart>
-</item>
-
-
-<item>
-<title>[B][COLOR lime][B]Vamp[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/novelas3.m3u</externallink>
-<fanart>https://i.ytimg.com/vi/XxfqhCyl-9I/hqdefault.jpg</fanart>
-<thumbnail>https://i.ytimg.com/vi/XxfqhCyl-9I/hqdefault.jpg</thumbnail>
-</item>
-
-
-<item>
-<title>[B][COLOR lime][B]CHIQUITITAS[/B][/COLOR]</title>
-<thumbnail>http://2.bp.blogspot.com/-joClvTgZzXY/VWYZSnoJZjI/AAAAAAAAB88/CuVgoaxG9e0/s1600/Chiquititas%2B3.png</thumbnail>
-<externallink>https://pastebin.com/raw/5kStbWtr</externallink>
-<link>http://ignora.me</link>
-<fanart>https://img.elo7.com.br/product/original/19981D6/painel-festa-chiquititas-chq01-tema-de-festa.jpg</fanart>
-</item>
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]PEDRA SOBRE PEDRA[/B][/COLOR]</title>
-<thumbnail>https://globointernacional.globo.com/PublishingImages/Programas/Outros/maxresdefault.jpg</thumbnail>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/PEDRASOBREPEDRA.xml</externallink>
-<link>http://ignora.me</link>
-<fanart>https://i.ytimg.com/vi/ZOVTflWlt_E/hqdefault.jpg</fanart>
-</item>
-
-<item>
-<title>[B][COLOR lime][B]QUE REI SOU EU[/B][/COLOR]</title>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1ODAwYzgtNmI2Zi00MmJmLTllYjAtMGYxNTIxMzRlM2JlXkEyXkFqcGdeQXVyMjY2NDA2MzM@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<externallink>https://pastebin.com/raw/Q1bWgdwx</externallink>
-<link>http://ignora.me</link>
-<fanart>https://upload.wikimedia.org/wikipedia/pt/thumb/8/80/Que_Rei_Sou_Eu%3F.jpg/250px-Que_Rei_Sou_Eu%3F.jpg</fanart>
-</item>
-
-
-
-
+  Change this line
  
+  return re.findall('512x.+\n([^#]+)',jdata)[0]+'|user-agent=ipad&origin=https://www.dailymotion.com&referer=https://www.dailymotion.com/video/[makelist.param4]?playlist=x3orpp'
  
-<item>
-<title>[B][COLOR lime][B]TOP MODEL[/B][/COLOR]</title>
-<thumbnail>http://3.bp.blogspot.com/--b-jVmP_dYw/TsmaVzbk43I/AAAAAAAARzA/pleAG4jVzfw/s320/mundonovelastopmodellogo1.jpg</thumbnail>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/TOPMODEL.xml</externallink>
-<link>http://ignora.me</link>
-<fanart>http://3.bp.blogspot.com/--b-jVmP_dYw/TsmaVzbk43I/AAAAAAAARzA/pleAG4jVzfw/s320/mundonovelastopmodellogo1.jpg</fanart>
-</item>
+  To this. It should fix it
  
- 
-
-
-<item>
-<title>[B][COLOR lime][B]XICA DA SILVA[/B][/COLOR]</title>
-<thumbnail>https://m.media-amazon.com/images/M/MV5BMjlmMmZjMWYtMWFmYS00NTZiLWJkOTUtNDEzYjIxYmZjZDhjXkEyXkFqcGdeQXVyMjgyOTI1ODY@._V1_UY268_CR5,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://static.vix.com/pt/sites/default/files/styles/large/public/n/novela-xica-da-silva-0917-1400x800.jpg?itok=0fT7obH3</fanart>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/CHICADASILVA.xml</externallink>
-<link>http://ignora.me</link>
-</item>
-
-
-
-
+  return re.findall('(?:552|512)x.+\n([^#]+)',jdata)[0]+'|user-agent=ipad&origin=https://www.dailymotion.com&referer=https://www.dailymotion.com/video/[makelist.param4]?playlist=x3orpp'
+  
+  
+  
+  
 
 <item>
-<title>[B][COLOR lime][B]Viver a Vida[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELASdailymotion/9novelas.m3u</externallink>
-<fanart>https://upload.wikimedia.org/wikipedia/pt/thumb/c/c8/Viveravidat3-300x300.jpg/220px-Viveravidat3-300x300.jpg</fanart>
-<thumbnail>https://upload.wikimedia.org/wikipedia/pt/thumb/c/c8/Viveravidat3-300x300.jpg/220px-Viveravidat3-300x300.jpg</thumbnail>
-</item>
-
-
-
-<item>
-<title>[B][COLOR lime][B]Celebridade[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELASdailymotion/8novelas.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Celebridade[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELASdailymotion/8novelas.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Belíssima[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELASdailymotion/7novelas.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Que Rei Sou Eu?[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELASdailymotion/6novelas.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail></item>
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]O Que a Vida Me Roubou[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELASdailymotion/5novelas.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Renacer[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELASdailymotion/4novelas.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-<item>
-<title>[B][COLOR lime][B]A viagem[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELASdailymotion/3novelas.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Dona Beija[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELASdailymotion/2novelas.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Vamp[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/novelas3.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-<item>
-<title>[B][COLOR lime][B]Mulheres de Areia[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/26novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]O Rei do gado[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/35novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Cambalacho [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELASdailymotion/1novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-<!-- <item>
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Alem do horizonte [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]i love paraisópolis[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/novelas2.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Malhação Seu Lugar no Mundo[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Aquele beijo[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/novelas1.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Mad Maria[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Rainha da sucata[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/novelas4.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Sete Vidas[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Laços de Família[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/novelas5.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Êta Mundo Bom! [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Haja Coração [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/novelas6.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]A viagem  [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Torre de babel  [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/7novelas.m3u</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Pai Herói [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Pérola Negra  [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/8novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]A Terra Prometida[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Escrava Mãe  [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/9novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Lei do amor [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Rock Story  [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/10novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Sol nacente[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] A gata comeu[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/11novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Cheias de Charme [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Sangue Bom [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/12novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B] Boogie Oogie[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]A Favorita [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/13novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Chamas da Vida[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Prova de Amor [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/14novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Caminho das Índias[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Cambalacho  [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/15novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]A Regra Do Jogo [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]O Beijo do Vampiro  [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/16novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]O dono do mundo[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Alem do Tempo[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/17novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Malhação Sonhos[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Os Dez Mandamentos[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/18novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Que Rei Sou Eu[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Rebelde[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/19novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Salve Jorge[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Além do Horizonte[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/20novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Gabriela nova[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Gabriela 1975 [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/21novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
- 
-
-<item>
-<title>[B][COLOR lime][B]O rebu [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Saramandaia[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/22novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]O astro  [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]Amor à Vida [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/23novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Avenida Brasil  [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Meu pedacinho de chão  [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/24novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Geração Brasil[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Império  [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/25novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Mulheres de Areia[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B]  Meu Bem; Meu Mal [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/26novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Tropicaliente[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Renascer  [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/27novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Em Família [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Morde & Assopra  [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/28novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Babilônia [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Três Irmãs [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/29novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Ti Ti Ti  [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Anjo Mau [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/30novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]de Model [/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Pedra sobre Pedra  [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/31novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Kubanacan[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] O Cravo e a Rosa [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/32novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]A Lua Me Disse[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Verdades secretas [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/33novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Cambalacho[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] Os 10 mandamentos [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/34novelas%20nova.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-<item>
-<title>[B][COLOR lime][B]O Rei do gado[/B][/COLOR][COLOR red][B]_E_[/B][/COLOR][B][COLOR lime][B] - [/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/NOVELAS/35novelas.m3u
-</externallink>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-</item> -->
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Froribela Brasil[/COLOR][/B]</title>
+<title>[B][COLOR yellow]•   [COLOR l]480 NOVELAS LATINA[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
+<thumbnail>https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/012011/tlnovelas_logo.png</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
+  <title>[makelist.param3]</title>
+  <link>$doregex[makelist2]</link>
+  <thumbnail>https://optimovision.tv/[makelist.param2]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLeOnZXYbavuPxk976ayLflrw4I2gO-OSM</page>
-<cookieJar></cookieJar>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  count=re.findall('(\d+)</a></li><li\s*class',page_data)[0];pn=1;data=[]
+  while pn <= int(count):
+    pages='https://optimovision.tv/novelas-completas/?page='+str(pn)
+    source=requests.get(pages,headers={'user-agent':'Mozilla/5.0','referer':'https://optimovision.tv/novelas-completas'}).content
+    data +=re.findall('(?s)href="/([^"]+).+?src="/(.*?)"\s*title="([^"]+)',re.findall('id="list_videos">(?s)(.*?)pagination',source)[0]);pn +=1
+  return data
+]]></expres>
+<page>https://optimovision.tv/novelas-completas</page>
 </regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+  <title>[makelist2.param3]</title>
+  <link>$doregex[getUrl]|user-agent=ipad&amp;referer=https://optimovision.tv/[makelist2.param1]</link>
+  <thumbnail>[makelist2.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('class="">\s*<a\s*href="/([^"]+).+?src="(.*?)"\s*title="([^"]+)',re.findall('id="list_videos"(?s)(.*?)footer-container',page_data)[0])
+]]></expres>
+<page>https://optimovision.tv/[makelist.param1]</page>
+<referer>https://optimovision.tv/novelas-completas</referer>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[<video.+?src="([^"]+)]]></expres>
+<page>https://optimovision.tv/[makelist2.param1]</page>
+<referer>https://optimovision.tv/[makelist.param1]</referer>
+</regex>
+</item>
 
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]TOTALMENTE DE MAIS[/COLOR][/B]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/pt/9/91/Capa_de_Totalmente_Demais_Internacional.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignora.me</link>
+<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/REDECANAISNOVELAS/TOTALMENTEDEMAIS.xml</externallink>
+</item>
+
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]A INDOMADA[/COLOR][/B]</title>
+<thumbnail>http://teledramaturgia.com.br/wp-content/uploads/2015/02/indomada-300x231.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignora.me</link>
+<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/REDECANAISNOVELAS/AINDOMADA.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]A TERRA PROMETIDA[/COLOR][/B]</title>
+<thumbnail>https://www.bastidoresdatv.com.br/wp-content/uploads/2016/09/ATerra-Logo-4.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignora.me</link>
+<externallink>http://vertv.de/VERTV/PROGRAMAS%20GRADOS%20BR/REDECANAISNOVELAS/ATERRAPROMETIDA.xml</externallink>
+</item>
+
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]BELISSIMA[/COLOR][/B]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/pt/5/5c/Logotipo_de_Bel%C3%ADssima.png</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x5u4nw</jsonrpc>
+</item>
+
+
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]PE NA JACA[/COLOR][/B]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/pt/thumb/0/0e/P%C3%A9_na_Jaca.jpg/260px-P%C3%A9_na_Jaca.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x3orpp</jsonrpc>
+</item>
+
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]I LOVE PARAISOPOLIS[/COLOR][/B]</title>
+<thumbnail>https://s2.glbimg.com/NXPAKrwahH_1pXJVBvkg1yZr8EI=/e.glbimg.com/og/ed/f/original/2015/05/11/paraisopolis.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x4lz8w</jsonrpc>
+</item>
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]SEGUNDO SOL[/COLOR][/B]</title>
+<thumbnail>https://observatoriodatv.uol.com.br/wp-content/uploads/2018/11/segundo-sol.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x5xhpl</jsonrpc>
+</item>
+
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]AMOR A VIDA[/COLOR][/B]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/52/Amor_%C3%A0_Vida.jpeg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x4ylo0</jsonrpc>
+</item>
+
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]CELEBRIDADE[/COLOR][/B]</title>
+<thumbnail>https://www.bastidoresdatv.com.br/wp-content/uploads/2017/11/Novela-Celebridade.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x552be</jsonrpc>
+</item>
+
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]VIVER A VIDA[/COLOR][/B]</title>
+<thumbnail>https://amusicalpatos.com.br/wp-content/uploads/2017/08/VIVER-A-VIDA-VOLUME-2-FT-600x600.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x52lmq</jsonrpc>
+</item>
+
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]SALVE SEU JORGE[/COLOR][/B]</title>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBNXyXCCxhZBN3jRyuFK0sD-PmMl6FQB-6dA&usqp=CAU</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x4lz94</jsonrpc>
+</item>
+
+
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]ALMA GEMEA[/COLOR][/B]</title>
+<thumbnail>https://a.wattpad.com/cover/136737234-288-k710466.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x3qyw5</jsonrpc>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR yellow]•   [COLOR white]AMOR SEM IGUAL [/COLOR][/B]</title>
+<thumbnail>https://www.srzd.com/wp-content/uploads/2019/12/protagonistas-de-amor-sem-igual-840x440.jpg?x76313</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x6jwc0</jsonrpc>
 </item>
 
 
@@ -828,22 +192,11 @@
 
 
 <item>
-<title>[B][COLOR lime][B]Rebelde Brasil[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLrGWJ_LzX0HzyXQyCv_29RTpN3Hy6lTv3</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<title>[B][COLOR yellow]•   [COLOR white] TOPÍSSIMA [/COLOR][/B]</title>
+<thumbnail>https://novelas.redenoticia.com.br/imagens/2019/05/topissima-record-300x202.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x61e5i</jsonrpc>
 </item>
 
 
@@ -851,464 +204,19 @@
 
 
 <item>
-<title>[B][COLOR lime][B]A historia de Ana e Ze trovao[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PL538F1F37C96C42BF</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Chiquititas[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLgwONCWQ3VbR79VrxWUB47-UxaDRA5BHt</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Essas Mulheres[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLl-dqTlFbAViQtKF29w5_iXP8MLQKnP1h</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]A escrava Isaura[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLeOnZXYbavuMU7_BQpDg42UtSCg_pThDI</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Cristal[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLtgBod_bXXEDUOrhAdzaFKDaF9gNeDBsk</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Coração de Estudante[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLkgg7r0-Lqr8qbEtbdSKdS6PaGsh0COF_</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Historias de Amor[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PL8B690A90A8FA1216</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Chocolate com Pimenta[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLm3O0Zj_0A1Ewjm5rcVFek6U-aYG5Vo73</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Marisol[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLAGKzE94xITVoU3XXnwNXss2YlG-3Uilr</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Ribeiro do Tempo[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLINuzLBKihYl2yMJFQcnRvoDcPQXcE51G</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]O Profeta[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PL7GnnjJhrm6CP3tTOis2JYgJpbiy-fEKJ</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Corações Feridos[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PL0F0EF20B03F7621E</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Mulheres Apaixondas[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLroh_HJFz5lykJaayCFLbUgljZu8Ibw3W</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<title>[B][COLOR yellow]•   [COLOR white] HISTORIA DE AMOR [/COLOR][/B]</title>
+<thumbnail>https://oplanetatv.clickgratis.com.br/_upload/galleries/2014/01/15/15-01-2014-52d6ba7077ced.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x6shl4</jsonrpc>
 </item>
 
 
 
 <item>
-<title>[B][COLOR lime][B]Desejo Prohibido[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PL2a-2BcnFazMbOHeNsOC7pbrjXf_UxTCs</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
+<title>[B][COLOR yellow]•   [COLOR white] HISTORIA DE AMOR [/COLOR][/B]</title>
+<thumbnail>https://s2.glbimg.com/MKzv_h9wlF2DIK7yeY_GUCXbTj0=/362x536/https://s2.glbimg.com/TDGFB5Q-wFclopwOwK2LQx9WeXE=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/27/7e/e314d3a415c99dd6c9719695690f.jpg</thumbnail>
+<fanart>https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80</fanart>
+<link>http://ignoreme</link>
+<jsonrpc>plugin://plugin.video.dailymotion_com/?mode=showPlaylist&amp;url=x4zt76</jsonrpc>
 </item>
-	
-	
-	
-	
-	
-	<item>
-<title>[B][COLOR lime][B]A muralha[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PL2A21CD4340F5AF3F</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-	
-	
-	
-	
-	
-	
-
-	
-	
-	
-	
-
-<item>
-<title>[B][COLOR lime][B]O clone[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLhr1TNpKE89CqSWpBbLB5XH64WK88Wna4</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-<item>
-<title>[B][COLOR lime][B]Paginas da Vida[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist.param2][/COLOR][/B]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-<fanart>http://vertv.de/VERTV/IMAGENS/background.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pl-video-title-link.*href="\/watch\?v=(.*?)&.*?>\W*(.*?)\n]]></expres>
-<page>https://www.youtube.com/playlist?list=PLSm2wcj94QdIVeVp52wr6ILiSIvXSZqFf</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://vertv.de/VERTV/LOGO/logobres.png</thumbnail>
-</item>
-
-
-
-
-
-
-
-
-
-
