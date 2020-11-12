@@ -7,7 +7,7 @@
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
   import re, requests, base64, jsunpack
-  url = 'https://espare.tk/embed/generator.php?id=space_lat'
+  url = 'https://espare.tk/embed/generator.php?id=fox_sports_premium_lat'
   headers = {'User-Agent': 'iPad',
              'Referer': 'https://adictosalatele.com/'}
   page_data = requests.get(url, headers=headers, verify=False).text
